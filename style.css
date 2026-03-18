@@ -1989,6 +1989,12 @@ html, body{
     margin-top: 4px;
 }
 
+.location-building {
+    padding-bottom: 20px;
+}
 
+.location-building img {
+    border-radius: 8px;
+}
 
 
