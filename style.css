@@ -445,7 +445,7 @@ body {
 .how-it-works ul {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 12px;
 }
 .how-it-works ul li {
     display: flex;
@@ -1830,11 +1830,164 @@ html, body{
     font-weight: 700;
 }
 
+/* New code here */
+.sideabar-contact-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    color: #000;
+    font-size: 18px;
+}
+
+.sideabar-contact-info .item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
+/* new section design added here */
+.inperson-section {
+    border-bottom: 1px solid #ddd;
+}
 
-
-
+/* Badge pill at top */
+.inperson-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #edf7f1;
+    border: 1px solid #b6e4c8;
+    border-radius: 999px;
+    padding: 5px 13px;
+    margin-bottom: 16px;
+}
+ 
+.inperson-badge span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #16a34a;
+    letter-spacing: 0.02em;
+}
+ 
+/* Intro paragraph */
+.inperson-intro {
+    font-size: 14px;
+    line-height: 170%;
+    color: #4b5563;
+    margin-bottom: 22px;
+}
+ 
+/* Location card */
+.inperson-location-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px 14px;
+    margin-bottom: 22px;
+}
+ 
+.inperson-location-icon {
+    width: 38px;
+    height: 38px;
+    flex: 0 0 38px;
+    background-color: #16a34a;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.inperson-location-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #9ca3af;
+    margin-bottom: 3px !important;
+    padding: 0 !important;
+}
+ 
+.inperson-location-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: #111827;
+    line-height: 140%;
+    padding: 0 !important;
+    margin-bottom: 4px !important;
+}
+ 
+.inperson-location-note {
+    font-size: 12px;
+    color: #6b7280;
+    padding: 0 !important;
+}
+ 
+/* Can-do block */
+.inperson-can-do {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 18px 16px;
+    margin-bottom: 18px;
+}
+ 
+.inperson-can-do-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 12px !important;
+    padding: 0 !important;
+}
+ 
+.inperson-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+.inperson-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #374151;
+}
+ 
+.inperson-dot {
+    display: block;
+    width: 7px;
+    height: 7px;
+    flex: 0 0 7px;
+    border-radius: 50%;
+    background-color: #40BC6D;
+    margin-top: 8px;
+}
+ 
+/* Footer note */
+.inperson-footer-note {
+    font-size: 13px;
+    line-height: 165%;
+    color: #6b7280;
+    border-left: 3px solid #40BC6D;
+    padding-left: 12px;
+    margin-top: 4px;
+}
 
 
 
